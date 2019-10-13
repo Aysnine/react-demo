@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
+    "start": "node scripts/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -30,6 +30,8 @@
     "@babel/plugin-proposal-class-properties": "^7.5.5",
     "@babel/preset-react": "^7.6.3",
     "babel-preset-react": "^6.24.1",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
     "jest": "^24.9.0",
     "less": "^3.10.3",
     "parcel-bundler": "^1.12.4"

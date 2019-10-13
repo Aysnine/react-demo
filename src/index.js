@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 
 class Hello extends Component {
 
+    // class 组件使用箭头函数
     hello = () => {
       // ...
     }
